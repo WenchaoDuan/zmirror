@@ -15,7 +15,7 @@ from time import time
 
 class TestRegex(ZmirrorTestBase):
     REGEX_POSSIBLE_SLASH = [
-        # 斜线(/) 所有可能的值
+        # 斜线(/) 所有可能的值sss
         "/",
         r"\/", r"\\/", r"\\\/", r"\\\\/",
         "%2f", "%2F",

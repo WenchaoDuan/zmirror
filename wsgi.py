@@ -26,11 +26,11 @@ def main():
         application.run(
             port=my_host_port,
 
-            # 如果配置文件中开启了多进程, 那么就关掉多线程, 否则默认启用多线程
+            # 如果配置文件中开启了多进程, 那么就关掉多线程, 否则默认启用多线程sssssssss
             threaded="processes" not in built_in_server_extra_params,
 
             # 如果你想直接用本程序给外网访问, 请在 config.py 末尾加两行配置
-            # !!警告!! 无论如何都不要修改 config_default.py, 否则程序将无法通过 git pull 来升级
+            # !!警告!! 无论如何都不要修改 config_default.py, 否则程序将无法通过 git pull 来升级sss
             #
             # built_in_server_host='0.0.0.0'
             # built_in_server_debug=False
